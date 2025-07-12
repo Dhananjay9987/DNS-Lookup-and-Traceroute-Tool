@@ -23,7 +23,7 @@ performance.
 
 # Key Features:
 
-  #Feature                                 #Description
+  #Feature           ------                      #Description
 1. DNS Lookup    ------                      1 converts a domain name (e.g., google.com) to its corresponding IP address
 2. Latency Checker           ------          2 sends multiple ICMP requests and calculates round-trip times (RTT)
 3. Traceroute               ------           3 traces the network path taken by packets using Time-To-Live (TTL) values
