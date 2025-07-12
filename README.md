@@ -42,11 +42,11 @@ Time Measuring round-trip time for latency/traceroute
 
 • DNS Lookup: Uses Python's socket.gethostbyname() to resolve the domain name.
 • Latency Check (Ping): Uses Scapy to send ICMP packets, and calculates the round-trip
-time using time.time().
+   time using time.time().
 • Traceroute: Sends ICMP packets with increasing TTL values and prints each
-responding node's IP, mimicking the behavior of the tracert command.
+   responding node's IP, mimicking the behavior of the tracert command.
 • Timeout Handling: Handles unreachable hops or no response by printing Request
-timed out.
+   timed out.
 
 # What You Learned:
 
