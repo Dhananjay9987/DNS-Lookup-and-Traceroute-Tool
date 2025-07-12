@@ -30,13 +30,14 @@ performance.
 4. RTT Display               ------          4 shows each hop’s IP address and round-trip time in milliseconds
 5. Timeout Detection         ------          5 detects and reports unreachable intermediate nodes or packet drops
 
+
 #Technologies Used:
 
-Technology Purpose
-Python 3 is a Core programming language
-socket for DNS resolution (gethostbyname)
-Scapy for crafting and sending low-level IP/ICMP packets
-Time Measuring round-trip time for latency/traceroute
+1. Technology Purpose
+2. Python 3 is a Core programming language
+3. socket for DNS resolution (gethostbyname)
+4. Scapy for crafting and sending low-level IP/ICMP packets
+5. Time Measuring round-trip time for latency/traceroute
 
 # Core Logic:
 
