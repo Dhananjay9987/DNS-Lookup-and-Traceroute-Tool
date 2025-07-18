@@ -23,12 +23,13 @@ performance.
 
 # Key Features:
 
-  #Feature           ------                      #Description
-1. DNS Lookup    ------                      1 converts a domain name (e.g., google.com) to its corresponding IP address
-2. Latency Checker           ------          2 sends multiple ICMP requests and calculates round-trip times (RTT)
-3. Traceroute               ------           3 traces the network path taken by packets using Time-To-Live (TTL) values
-4. RTT Display               ------          4 shows each hop’s IP address and round-trip time in milliseconds
-5. Timeout Detection         ------          5 detects and reports unreachable intermediate nodes or packet drops
+|Feature                         | Description     |
+|-------------------------------|--------------------------------|
+| DNS Lookup   | converts a domain name (e.g., google.com) to its corresponding IP address |
+| Latency Checker   | sends multiple ICMP requests and calculates round-trip times (RTT)  |
+| Traceroute  | traces the network path taken by packets using Time-To-Live (TTL) values  |
+| RTT Display  | shows each hop’s IP address and round-trip time in milliseconds     |
+| Timeout Detection  | detects and reports unreachable intermediate nodes or packet drops |
 
 
 # Technologies Used:
