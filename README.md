@@ -1,5 +1,3 @@
-# DNS-Lookup-and-Traceroute-Tool
-
 # Project Title:
 
 DNS Lookup and Traceroute Tool
